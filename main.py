@@ -1,4 +1,3 @@
-```python
 from machine import Pin, I2C
 from time import sleep_ms
 
@@ -172,10 +171,9 @@ else:
     lcd.clear()
 
     lcd.set_cursor(0, 0)
-    lcd.write("Raspberry Pi")
+    lcd.write("ground control")
 
     lcd.set_cursor(0, 1)
-    lcd.write("Pico 2 works!")
+    lcd.write("to major Tom")
 
     print("Message written to LCD.")
-```
