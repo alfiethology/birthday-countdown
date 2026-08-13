@@ -5,10 +5,10 @@ from time import sleep_ms
 # Raspberry Pi Pico 2 + DFRobot I2C LCD1602
 #
 # Wiring:
-# LCD VCC -> Pico VBUS / 5V
-# LCD GND -> Pico GND
-# LCD SDA -> Pico GP4
-# LCD SCL -> Pico GP5
+# LCD VCC (red to orange wire) -> Pico VBUS / 5V (pin 40)
+# LCD GND (black to yellow wire) -> Pico GND (pin 38)
+# LCD SDA (teal to green) -> Pico GP4 (pin 6)
+# LCD SCL (blue to blue) -> Pico GP5 (pin 7)
 # ------------------------------------------------------------
 
 # I2C setup
